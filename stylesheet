@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+.header h1 {
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+.container {
+  border: 2px solid black;
+  text-align: center;
+  display: block;
+  margin: 30px;
+  padding: 10px;
+}
+.red, .green, .blue {
+  width: 30%;
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px 0;
+  display: block;
+}
+.red {
+  background-color: #cc0000;
+}
+.green {
+  background-color: #2ECC71;
+}
+.blue {
+  background-color: #2E86C1;
+}
+h2 {
+  text-decoration: underline;
+}
+.h2 h2 {
+  text-decoration: none;
+}
+.kanit {
+  font-family: kanit;
+}
+.teko {
+  font-family: teko;
+}
+.exo {
+  font-family: exo;
+}
+.kanit p.k300, .teko p.t300, .exo p.e300 {
+  font-weight: 300;
+}
+.kanit p.k500, .teko p.t500, .exo p.e500 {
+  font-weight: 500;
+}
+.kanit p.k700, .teko p.t700, .exo p.e700 {
+  font-weight: 700;
+}
